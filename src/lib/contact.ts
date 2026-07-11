@@ -3,11 +3,11 @@
 export const WHATSAPP_NUMBER = "917994755458";
 export const BUSINESS_PHONE = "+91 79947 55458";
 export const BUSINESS_EMAIL = "petfocuz24@gmail.com";
-export const BUSINESS_HOURS = "Mon - Sat: 9:00 AM - 7:00 PM (Sunday Closed)";
+export const BUSINESS_HOURS = "Mon - Sat: 10:00 AM - 8:00 PM (Sunday Closed)";
 
 export const MAP_LINKS = {
-  groomingStudio: "https://maps.google.com/?q=Petfocuz+Grooming+Studio+Thrissur+Kerala",
-  homeBoarding: "https://maps.google.com/?q=Petfocuz+Home+Boarding+Thrissur+Kerala",
+  groomingStudio: "https://maps.app.goo.gl/3j1ML7pGbCNh6XjaA?g_st=ac",
+  homeBoarding: "https://maps.app.goo.gl/pkWZnf1nnn7uuAMQ6?g_st=ic",
 };
 
 export const SOCIAL_LINKS = {
