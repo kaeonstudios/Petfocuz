@@ -6,6 +6,7 @@ import BentoGallery from "@/components/ui/BentoGallery";
 import MetaTags from "@/components/ui/MetaTags";
 import { openWhatsApp } from "@/lib/contact";
 import maxonImg from "../../ui_images/glr_17.jpg";
+import aboutImg from "../../ui_images/about_hero.png";
 
 export default function About() {
   const location = useLocation();
@@ -99,7 +100,7 @@ export default function About() {
 
           <div className="order-1 md:order-2 relative w-full aspect-[4/5] rounded-[36px] overflow-hidden shadow-card border border-border bg-white group">
             <img
-              src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=800"
+              src={aboutImg}
               alt="Professional pet groomer showing care"
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
             />
