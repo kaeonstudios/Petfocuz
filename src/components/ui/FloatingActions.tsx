@@ -65,22 +65,6 @@ export default function FloatingActions() {
         </Link>
       </div>
 
-      {/* Sticky Bottom CTA for Mobile devices */}
-      <div className="md:hidden fixed bottom-0 left-0 w-full z-40 bg-background/90 backdrop-blur-md border-t border-border px-4 py-3 flex gap-3 pb-[calc(12px+env(safe-area-inset-bottom))] shadow-card">
-        <button
-          onClick={handleWhatsAppClick}
-          className="flex-1 bg-success text-white py-3 rounded-full font-sans font-semibold text-sm flex items-center justify-center gap-2 hover:bg-emerald-600 transition-colors shadow-soft"
-        >
-          <MessageSquare className="h-4 w-4 fill-white text-success" />
-          WhatsApp Us
-        </button>
-        <Link
-          to="/contact-pet-grooming-thrissur"
-          className="flex-1 gradient-primary py-3 rounded-full font-sans font-semibold text-sm text-center shadow-soft"
-        >
-          Book Session
-        </Link>
-      </div>
     </>
   );
 }
