@@ -4,7 +4,7 @@ import catGroomingImg from "../../ui_images/cat grooming.png";
 import wellnessSpaImg from "../../ui_images/wellness and spa.png";
 import cagefreeBoardingImg from "../../ui_images/cagefree onboarding.png";
 import hospitalAssistanceImg from "../../ui_images/hospital assistance.png";
-import pickAndDropImg from "../../ui_images/pick and drop.png";
+import pickAndDropImg from "../../ui_images/pick and drop.jpeg";
 import courseImg from "../../ui_images/course.png";
 
 
@@ -98,11 +98,11 @@ export const SERVICES: ServiceItem[] = [
     slug: "/pet-grooming-services-thrissur#pet-spa",
     shortDescription: "Indulgent spa treatments focusing on coat nourishment, skin therapy, and relaxation.",
     summary: "Premium pampering sessions combining deep coat nourishment, skin therapy, and relaxation — perfect for nervous pets or those with chronic dryness.",
-    longDescription: "Our Pet Spa goes beyond grooming with targeted wellness treatments that deeply hydrate dry skin, restore coat luster, and relieve muscular tension. Each session includes a blueberry facial mask for tear stain removal, warm organic coconut oil massage, and aromatherapy during the drying process. This is a sensory-rich experience pets genuinely enjoy.",
+    longDescription: "Our Pet Spa goes beyond grooming with targeted wellness treatments that deeply hydrate dry skin, restore coat luster, and relieve muscular tension. Each session includes a fruity facial mask for tear stain removal, warm organic coconut oil massage, and aromatherapy during the drying process. This is a sensory-rich experience pets genuinely enjoy.",
     features: [
       "Paw Care",
       "Coat Conditioning",
-      "Blueberry facial mask to cleanse tear stains and refresh face fur",
+      "fruity facial mask to cleanse tear stains and refresh face fur",
       "Soothing massage with warm organic coconut oil",
       "Aromatherapy relaxation session during dry"
     ],
@@ -285,7 +285,7 @@ export const REVIEWS: ReviewItem[] = [
     petName: "Bruno",
     petBreed: "Labrador",
     rating: 5,
-    text: "Amazing de-shedding treatment. Bruno sheds like crazy during summers, but after the spa session, the loose hair is 90% gone. The blueberry facial kept his face clean and tear-free. Excellent premium products.",
+    text: "Amazing de-shedding treatment. Bruno sheds like crazy during summers, but after the spa session, the loose hair is 90% gone. The fruity facial kept his face clean and tear-free. Excellent premium products.",
     source: "Google",
     date: "1 month ago",
     avatarBg: "bg-indigo-600 text-white"
@@ -484,7 +484,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "Does Petfocuz offer luxury grooming?",
-    answer: "Yes. Our luxury grooming package includes full styling plus spa relaxation, aromatherapy, blueberry facials, premium conditioning masks, and a luxury cologne spray.",
+    answer: "Yes. Our luxury grooming package includes full styling plus spa relaxation, aromatherapy, fruity facials, premium conditioning masks, and a luxury cologne spray.",
     category: "Pricing"
   },
   {

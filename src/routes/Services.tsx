@@ -322,15 +322,15 @@ export default function Services() {
                 <span className="font-display font-bold text-base text-foreground">De-Matting</span>
                 <div className="grid grid-cols-3 gap-2">
                   <div className="bg-surface p-2.5 rounded-xl border border-border/60 flex flex-col items-center">
-                    <span className="text-[10px] text-muted-foreground uppercase font-bold">Small</span>
+                    <span className="text-[10px] text-muted-foreground uppercase font-bold">Small Breed</span>
                     <span className="text-xs font-semibold text-primary mt-1 font-sans">₹250-700</span>
                   </div>
                   <div className="bg-surface p-2.5 rounded-xl border border-border/60 flex flex-col items-center">
-                    <span className="text-[10px] text-muted-foreground uppercase font-bold">Medium</span>
+                    <span className="text-[10px] text-muted-foreground uppercase font-bold">Medium Breed</span>
                     <span className="text-xs font-semibold text-primary mt-1 font-sans">₹250-700</span>
                   </div>
                   <div className="bg-surface p-2.5 rounded-xl border border-border/60 flex flex-col items-center">
-                    <span className="text-[10px] text-muted-foreground uppercase font-bold">Large</span>
+                    <span className="text-[10px] text-muted-foreground uppercase font-bold">Large Breed</span>
                     <span className="text-xs font-semibold text-primary mt-1 font-sans">₹250-700</span>
                   </div>
                 </div>

@@ -21,6 +21,10 @@ import glr15 from "../../../ui_images/glr_15.jpg";
 import glr16 from "../../../ui_images/glr_16.jpg";
 import glr17 from "../../../ui_images/glr_17.jpg";
 import glr18 from "../../../ui_images/glr_18.jpeg";
+import glr19 from "../../../ui_images/glr_19.jpg";
+import glr20 from "../../../ui_images/glr_20.jpg";
+import glr21 from "../../../ui_images/glr_21.jpg";
+import glr22 from "../../../ui_images/glr_22.jpg";
 
 // Local video and poster imports
 import glrVideo1 from "../../../ui_images/glr_video_1.mp4";
@@ -209,6 +213,38 @@ export default function BentoGallery({ limit }: BentoGalleryProps) {
       alt: "Clean cat nails and professional paw-pad care",
       category: "Paw Care",
       spanClass: "col-span-2 row-span-1 md:col-span-1 md:row-span-1",
+    },
+    {
+      id: "gal-19",
+      type: "image",
+      url: glr19,
+      alt: "Custom breed haircut and styling",
+      category: "Styling",
+      spanClass: "col-span-1 row-span-1",
+    },
+    {
+      id: "gal-20",
+      type: "image",
+      url: glr20,
+      alt: "Playful pet socialization in boarding",
+      category: "Boarding",
+      spanClass: "col-span-1 row-span-1",
+    },
+    {
+      id: "gal-21",
+      type: "image",
+      url: glr21,
+      alt: "Relaxing therapeutic pet bubble bath",
+      category: "Pet Spa",
+      spanClass: "col-span-1 row-span-1",
+    },
+    {
+      id: "gal-22",
+      type: "image",
+      url: glr22,
+      alt: "Premium post-grooming look and care",
+      category: "Transformation",
+      spanClass: "col-span-1 row-span-1",
     },
     // --- Remote videos from previous portfolio ---
     // {
