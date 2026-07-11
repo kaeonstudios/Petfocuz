@@ -24,6 +24,7 @@ export interface AppointmentFormValues {
   petType: "Dog" | "Cat";
   breed: string;
   age: string;
+  isVaccinated: boolean;
   serviceRequired: string;
   preferredDate: string;
   preferredTime: string;
@@ -43,6 +44,7 @@ Pet Name: ${values.petName}
 Pet Type: ${values.petType}
 Breed: ${values.breed}
 Age: ${values.age}
+Vaccinated: ${values.isVaccinated ? "Yes" : "No"}
 Selected Service: ${values.serviceRequired}
 Preferred Date: ${values.preferredDate}
 Preferred Time: ${values.preferredTime}

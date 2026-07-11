@@ -16,6 +16,7 @@ const schema = zod.object({
   petType: zod.enum(["Dog", "Cat"]),
   breed: zod.string().min(2, "Breed description is required (e.g., Shih Tzu, Persian)"),
   age: zod.string().min(1, "Age is required (e.g., 2 years, 6 months)"),
+  isVaccinated: zod.boolean(),
   serviceRequired: zod.string().min(1, "Please select a service"),
   preferredDate: zod.string()
     .min(1, "Please select a date")
@@ -47,6 +48,7 @@ export default function AppointmentForm() {
       petType: "Dog",
       serviceRequired: "",
       preferredTime: "",
+      isVaccinated: false,
     },
   });
 
@@ -247,6 +249,17 @@ export default function AppointmentForm() {
                   <AlertCircle className="h-3 w-3" /> {errors.age.message}
                 </span>
               )}
+              <div className="flex items-center gap-2 mt-2">
+                <input
+                  id="isVaccinated"
+                  type="checkbox"
+                  {...register("isVaccinated")}
+                  className="h-4 w-4 rounded border-border text-primary focus:ring-primary/50 cursor-pointer"
+                />
+                <label htmlFor="isVaccinated" className="text-xs font-semibold text-foreground cursor-pointer select-none">
+                  Fully Vaccinated
+                </label>
+              </div>
             </div>
           </div>
         </div>
@@ -420,6 +433,17 @@ export default function AppointmentForm() {
                 <div>
                   <span className="text-[10px] uppercase font-bold text-muted-foreground">Breed</span>
                   <p className="font-semibold text-foreground text-sm leading-tight mt-0.5 truncate">{summaryData.breed}</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2 border-b border-border/50 pb-2">
+                <div>
+                  <span className="text-[10px] uppercase font-bold text-muted-foreground">Age</span>
+                  <p className="font-semibold text-foreground text-sm leading-tight mt-0.5">{summaryData.age}</p>
+                </div>
+                <div>
+                  <span className="text-[10px] uppercase font-bold text-muted-foreground">Vaccinated</span>
+                  <p className="font-semibold text-foreground text-sm leading-tight mt-0.5">{summaryData.isVaccinated ? "Yes" : "No"}</p>
                 </div>
               </div>
 
