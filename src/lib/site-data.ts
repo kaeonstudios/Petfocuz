@@ -1,5 +1,12 @@
 // Master site data for Petfocuz
 import colouringServiceImg from "../../ui_images/colouring_service_img.jpeg";
+import catGroomingImg from "../../ui_images/cat grooming.png";
+import wellnessSpaImg from "../../ui_images/wellness and spa.png";
+import cagefreeBoardingImg from "../../ui_images/cagefree onboarding.png";
+import hospitalAssistanceImg from "../../ui_images/hospital assistance.png";
+import pickAndDropImg from "../../ui_images/pick and drop.png";
+import courseImg from "../../ui_images/course.png";
+
 
 
 export interface ServiceItem {
@@ -83,7 +90,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     pricing: "Starting from ₹1,500 (Varies by breed and temperament)",
     ctaText: "Book Cat Grooming",
-    imageUrl: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=800"
+    imageUrl: catGroomingImg
   },
   {
     id: "pet-spa",
@@ -107,7 +114,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     pricing: "Starting from ₹2,000",
     ctaText: "Book Spa Treatment",
-    imageUrl: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=800"
+    imageUrl: wellnessSpaImg
   },
   {
     id: "creative-coloring",
@@ -152,7 +159,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     pricing: "Starting from ₹600 / Day",
     ctaText: "Book Home Boarding",
-    imageUrl: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=800"
+    imageUrl: cagefreeBoardingImg
   },
   {
     id: "hospital-assistance",
@@ -175,7 +182,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     pricing: "Starting from ₹800 (Plus travel & medical charges)",
     ctaText: "Book Vet Assistance",
-    imageUrl: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=800"
+    imageUrl: hospitalAssistanceImg
   },
   {
     id: "pickup-drop",
@@ -197,7 +204,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     pricing: "Available depending on location. Contact us for more information.",
     ctaText: "Request Pickup",
-    imageUrl: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&q=80&w=800"
+    imageUrl: pickAndDropImg
   },
   {
     id: "grooming-course",
@@ -222,7 +229,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     pricing: "Contact us for curriculum details and enrollment fees",
     ctaText: "Enquire Now",
-    imageUrl: "https://images.unsplash.com/photo-1535268647977-a403b69fc756?auto=format&fit=crop&q=80&w=800"
+    imageUrl: courseImg
   }
 ];
 

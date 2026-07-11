@@ -162,7 +162,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary font-semibold transition-colors"
             >
-              Kaeon Studios
+              Kaeon
             </a>
           </span>
         </div>
