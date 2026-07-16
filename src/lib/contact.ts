@@ -20,7 +20,7 @@ export interface AppointmentFormValues {
   ownerName: string;
   phone: string;
   email?: string;
-  petName: string;
+  petName?: string;
   petType: "Dog" | "Cat";
   breed: string;
   age: string;
@@ -33,6 +33,8 @@ export interface AppointmentFormValues {
 }
 
 export function buildAppointmentMessage(values: AppointmentFormValues): string {
+  const isPickupAndDrop = values.serviceRequired === "Dog Grooming + Pick and Drop";
+
   return `Hello Petfocuz,
 
 I would like to book an appointment.
@@ -40,14 +42,14 @@ I would like to book an appointment.
 Owner Name: ${values.ownerName}
 Phone: ${values.phone}
 Email: ${values.email || "N/A"}
-Pet Name: ${values.petName}
+Pet Name: ${values.petName || "N/A"}
 Pet Type: ${values.petType}
 Breed: ${values.breed}
 Age: ${values.age}
 Vaccinated: ${values.isVaccinated ? "Yes" : "No"}
 Selected Service: ${values.serviceRequired}
 Preferred Date: ${values.preferredDate}
-Preferred Time: ${values.preferredTime}
+Preferred Time: ${values.preferredTime}${isPickupAndDrop ? "\nPickup/Drop Address: <Enter Address Here>" : ""}
 Medical Conditions: ${values.medicalConditions || "None"}
 Additional Notes: ${values.additionalNotes || "None"}
 

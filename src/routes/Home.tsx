@@ -8,9 +8,14 @@ import { openWhatsApp, MAP_LINKS, BUSINESS_PHONE } from "@/lib/contact";
 import heroBg from "../../ui_images/hero.jpg";
 import AnimatedCounter from "@/components/ui/AnimatedCounter";
 import BentoGallery from "@/components/ui/BentoGallery";
+import { SERVICES } from "@/lib/site-data";
 
 export default function Home() {
   const [activeFaqIndex, setActiveFaqIndex] = useState<number | null>(null);
+  
+  const dogGroomingImg = SERVICES.find(s => s.id === "dog-grooming")?.imageUrl;
+  const catGroomingImg = SERVICES.find(s => s.id === "cat-grooming")?.imageUrl;
+  const petSpaImg = SERVICES.find(s => s.id === "pet-spa")?.imageUrl;
 
   const handleWhatsAppInquiry = () => {
     openWhatsApp("Hello Petfocuz, I would like to inquire about booking a pet grooming appointment.");
@@ -203,7 +208,7 @@ export default function Home() {
               className="group relative md:col-span-2 lg:col-span-2 rounded-[24px] overflow-hidden shadow-card border border-border bg-white flex flex-col justify-between p-6 text-left"
             >
               <img
-                src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=800"
+                src={dogGroomingImg}
                 alt="Dog Grooming"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 z-0"
                 loading="lazy"
@@ -228,7 +233,7 @@ export default function Home() {
               className="group relative lg:col-span-1 rounded-[24px] overflow-hidden shadow-card border border-border bg-white flex flex-col justify-between p-6 text-left"
             >
               <img
-                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=800"
+                src={catGroomingImg}
                 alt="Cat Grooming"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 z-0"
                 loading="lazy"
@@ -253,7 +258,7 @@ export default function Home() {
               className="group relative lg:col-span-1 rounded-[24px] overflow-hidden shadow-card border border-border bg-white flex flex-col justify-between p-6 text-left"
             >
               <img
-                src="https://images.unsplash.com/photo-1608096299210-db7e38487075?auto=format&fit=crop&q=80&w=800"
+                src={petSpaImg}
                 alt="Pet Spa & Wellness"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 z-0"
                 loading="lazy"

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as zod from "zod";
@@ -12,7 +12,7 @@ const schema = zod.object({
   ownerName: zod.string().min(2, "Owner Name must be at least 2 characters"),
   phone: zod.string().regex(/^[6-9]\d{9}$/, "Please enter a valid 10-digit Indian mobile number"),
   email: zod.string().email("Please enter a valid email").optional().or(zod.literal("")),
-  petName: zod.string().min(1, "Pet Name is required"),
+  petName: zod.string().optional().or(zod.literal("")),
   petType: zod.enum(["Dog", "Cat"]),
   breed: zod.string().min(2, "Breed description is required (e.g., Shih Tzu, Persian)"),
   age: zod.string().min(1, "Age is required (e.g., 2 years, 6 months)"),
@@ -161,7 +161,7 @@ export default function AppointmentForm() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-1.5 text-left">
               <label className="text-xs font-semibold text-foreground" htmlFor="petName">
-                Pet Name *
+                Pet Name (Optional)
               </label>
               <input
                 id="petName"
@@ -283,9 +283,16 @@ export default function AppointmentForm() {
             >
               <option value="" disabled>Select a Service</option>
               {SERVICES.map((service) => (
-                <option key={service.id} value={service.title}>
-                  {service.title}
-                </option>
+                <Fragment key={service.id}>
+                  <option value={service.title}>
+                    {service.title}
+                  </option>
+                  {service.id === "dog-grooming" && (
+                    <option value="Dog Grooming + Pick and Drop">
+                      Dog Grooming + Pick and Drop
+                    </option>
+                  )}
+                </Fragment>
               ))}
             </select>
             {errors.serviceRequired && (
@@ -424,7 +431,7 @@ export default function AppointmentForm() {
               <div className="grid grid-cols-3 gap-2 border-b border-border/50 pb-2">
                 <div>
                   <span className="text-[10px] uppercase font-bold text-muted-foreground">Pet Name</span>
-                  <p className="font-semibold text-foreground text-sm leading-tight mt-0.5">{summaryData.petName}</p>
+                  <p className="font-semibold text-foreground text-sm leading-tight mt-0.5">{summaryData.petName || "N/A"}</p>
                 </div>
                 <div>
                   <span className="text-[10px] uppercase font-bold text-muted-foreground">Type</span>

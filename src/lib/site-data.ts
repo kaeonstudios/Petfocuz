@@ -1,11 +1,12 @@
 // Master site data for Petfocuz
 import colouringServiceImg from "../../ui_images/colouring_service_img.jpeg";
-import catGroomingImg from "../../ui_images/cat grooming.png";
+import dogGroomingImg from "../../ui_images/dog.webp";
+import catGroomingImg from "../../ui_images/cat.jpg";
 import wellnessSpaImg from "../../ui_images/wellness and spa.png";
 import cagefreeBoardingImg from "../../ui_images/cagefree onboarding.png";
 import hospitalAssistanceImg from "../../ui_images/hospital assistance.png";
 import pickAndDropImg from "../../ui_images/pick and drop.jpeg";
-import courseImg from "../../ui_images/course.png";
+import courseImg from "../../ui_images/glr_8.jpeg";
 
 
 
@@ -67,7 +68,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     pricing: "Starting from ₹1,200 (Varies by breed size and coat condition)",
     ctaText: "Book Dog Grooming",
-    imageUrl: "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=800"
+    imageUrl: dogGroomingImg
   },
   {
     id: "cat-grooming",
