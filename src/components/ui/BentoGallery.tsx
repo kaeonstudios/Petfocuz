@@ -325,7 +325,7 @@ export default function BentoGallery({ limit }: BentoGalleryProps) {
               key={item.id}
               onClick={() => setLightboxIndex(index)}
               aria-label={`View ${item.type === "video" ? "video" : "image"} - ${item.alt}`}
-              className={`group relative overflow-hidden rounded-[24px] border border-border/40 shadow-soft hover:shadow-lift transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary/50 cursor-pointer ${item.spanClass || 'col-span-1 row-span-1'}`}
+              className={`group relative overflow-hidden rounded-[24px] border border-border/40 shadow-soft hover:shadow-lift transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary/50 cursor-pointer bg-surface ${item.spanClass || 'col-span-1 row-span-1'}`}
             >
               {item.type === "video" ? (
                 <>
@@ -337,7 +337,7 @@ export default function BentoGallery({ limit }: BentoGalleryProps) {
                     loop
                     playsInline
                     preload="metadata"
-                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                    className="absolute inset-0 h-full w-full object-contain transition-transform duration-700 ease-out group-hover:scale-110"
                   />
                   {/* Play Button Overlay */}
                   <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
@@ -350,7 +350,7 @@ export default function BentoGallery({ limit }: BentoGalleryProps) {
                 <img
                   src={item.url}
                   alt={item.alt}
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                  className="absolute inset-0 h-full w-full object-contain transition-transform duration-700 ease-out group-hover:scale-110"
                   loading="lazy"
                 />
               )}
