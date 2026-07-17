@@ -63,7 +63,7 @@ export default function ReviewsSection() {
               {review.name}
             </span>
             <span className="font-sans text-xs text-muted-foreground">
-              {review.petName} ({review.petBreed}) · <span className="text-[10px]">{review.date}</span>
+              {review.petName ? `${review.petName} (${review.petBreed})` : review.petBreed} · <span className="text-[10px]">{review.date}</span>
             </span>
           </div>
         </div>
