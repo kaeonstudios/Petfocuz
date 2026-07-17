@@ -81,6 +81,7 @@ export default function Home() {
             alt="Professional pet grooming styling dryer service at Petfocuz studio"
             className="w-full h-full object-cover"
             loading="eager"
+            fetchPriority="high"
           />
           {/* Horizon/left-aligned dark gradient mapping + solid overlay */}
           <div className="absolute inset-0 bg-black/50 z-[1]" />

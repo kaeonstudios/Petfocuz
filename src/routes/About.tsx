@@ -103,6 +103,8 @@ export default function About() {
               src={aboutImg}
               alt="Professional pet groomer showing care"
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+              loading="eager"
+              fetchPriority="high"
             />
           </div>
         </div>

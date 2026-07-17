@@ -59,5 +59,5 @@ Thank you.`;
 export function openWhatsApp(message?: string): void {
   const encoded = message ? encodeURIComponent(message) : "";
   const url = `https://wa.me/${WHATSAPP_NUMBER}${encoded ? `?text=${encoded}` : ""}`;
-  window.open(url, "_blank");
+  window.open(url, "_blank", "noopener,noreferrer");
 }

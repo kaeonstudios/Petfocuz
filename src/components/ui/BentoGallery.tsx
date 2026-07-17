@@ -324,6 +324,7 @@ export default function BentoGallery({ limit }: BentoGalleryProps) {
             <button
               key={item.id}
               onClick={() => setLightboxIndex(index)}
+              aria-label={`View ${item.type === "video" ? "video" : "image"} - ${item.alt}`}
               className={`group relative overflow-hidden rounded-[24px] border border-border/40 shadow-soft hover:shadow-lift transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary/50 cursor-pointer ${item.spanClass || 'col-span-1 row-span-1'}`}
             >
               {item.type === "video" ? (
