@@ -1,0 +1,16 @@
+{
+  "name": "Petfocuz - Professional Pet Grooming & Boarding",
+  "short_name": "Petfocuz",
+  "description": "Professional pet grooming and cage-free home boarding in Thrissur, Kerala.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0F9D94",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

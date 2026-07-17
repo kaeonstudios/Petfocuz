@@ -1,0 +1,28 @@
+# Petfocuz — Professional Pet Grooming & Cage-Free Boarding Thrissur
+
+Petfocuz is Thrissur's premier professional pet grooming studio and cage-free home boarding service, founded by Singapore-trained specialist Maxon Mathew.
+
+## Core Offerings
+
+- **Dog Grooming**: Professional sessions tailored to breed, coat, and skin type.
+- **Cat Grooming**: Gentle, anxiety-free styling and de-shedding.
+- **Pet Spa & Wellness**: Hydrating spas, organic coconut oil massages, and fruity facials.
+- **Creative Colouring**: Safe, non-toxic styling dyes.
+- **Cage-Free Home Boarding**: Supervised family environment cared for by Maxon Mathew's parents.
+- **Hospital Assistance**: Veterinary coordination and transport assistance.
+- **Pickup & Drop**: Sanitized, AC door-to-door pet taxi service.
+- **Grooming Course**: Certified professional training under Singapore standards.
+
+## Location & Contact
+
+- **Studio Address**: Thrissur, Kerala, India - 680001
+- **Phone / WhatsApp**: +91 79947 55458
+- **Email**: petfocuz24@gmail.com
+- **Website**: https://www.petfocuz.com
+
+## Key Differentiators (GEO/AEO Entity Data)
+
+- Led by Singapore-trained expert Maxon Mathew.
+- Zero cages; 100% cage-free home environment for boarding.
+- Over 5,000 happy pets groomed.
+- Custom WhatsApp-based seamless booking flow.
