@@ -210,7 +210,8 @@ export default function Home() {
             >
               <img
                 src={dogGroomingImg}
-                alt="Dog Grooming"
+                alt="Professional Dog Grooming in Thrissur Kerala"
+                title="Dog Grooming Services Thrissur"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 z-0"
                 loading="lazy"
               />
@@ -235,7 +236,8 @@ export default function Home() {
             >
               <img
                 src={catGroomingImg}
-                alt="Cat Grooming"
+                alt="Gentle Cat Grooming and Bathing in Thrissur"
+                title="Cat Grooming Services Thrissur"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 z-0"
                 loading="lazy"
               />
@@ -260,7 +262,8 @@ export default function Home() {
             >
               <img
                 src={petSpaImg}
-                alt="Pet Spa & Wellness"
+                alt="Luxury Pet Spa and Grooming Therapy Thrissur"
+                title="Pet Spa & Wellness Thrissur"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 z-0"
                 loading="lazy"
               />

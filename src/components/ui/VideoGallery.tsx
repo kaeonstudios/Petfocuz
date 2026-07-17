@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Play, X } from "lucide-react";
 
 interface VideoItem {
@@ -49,6 +49,30 @@ export default function VideoGallery() {
       videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-woman-playing-with-her-dog-at-home-42238-large.mp4"
     }
   ];
+
+  useEffect(() => {
+    const videoSchemas = videos.map(video => ({
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": video.title,
+      "description": `${video.title} - A professional pet care and grooming video showcasing the services at Petfocuz studio in Thrissur, Kerala.`,
+      "thumbnailUrl": video.thumbnail,
+      "uploadDate": "2026-06-15T08:00:00Z",
+      "contentUrl": video.videoUrl,
+      "embedUrl": video.videoUrl
+    }));
+
+    const script = document.createElement("script");
+    script.setAttribute("id", "json-ld-video-schema");
+    script.setAttribute("type", "application/ld+json");
+    script.textContent = JSON.stringify(videoSchemas);
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById("json-ld-video-schema");
+      if (existing) existing.remove();
+    };
+  }, []);
 
   return (
     <div className="w-full">

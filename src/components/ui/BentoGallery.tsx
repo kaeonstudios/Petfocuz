@@ -350,6 +350,7 @@ export default function BentoGallery({ limit }: BentoGalleryProps) {
                 <img
                   src={item.url}
                   alt={item.alt}
+                  title={item.alt}
                   className="w-full h-auto object-cover block transition-transform duration-700 ease-out group-hover:scale-105"
                   loading="lazy"
                 />
