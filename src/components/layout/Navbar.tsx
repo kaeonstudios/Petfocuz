@@ -56,8 +56,8 @@ export default function Navbar() {
 
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled || !isHome
-            ? "glass py-4 shadow-soft"
-            : "bg-transparent py-6"
+            ? "glass py-2 shadow-soft"
+            : "bg-transparent py-3"
           }`}
       >
         <div className="container-x flex items-center justify-between">
