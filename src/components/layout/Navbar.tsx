@@ -63,7 +63,7 @@ export default function Navbar() {
         <div className="container-x flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <img src={logoImg} alt="Petfocuz Logo" className="h-15 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
+            <img src={logoImg} alt="Petfocuz Logo" className="h-22 md:h-28 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
           </Link>
 
           {/* Desktop Nav Items (Translucent Capsule) */}

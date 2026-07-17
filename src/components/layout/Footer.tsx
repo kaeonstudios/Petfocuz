@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Column 1: Brand details */}
           <div className="flex flex-col gap-6">
             <Link to="/" className="flex items-center gap-2 group self-start">
-              <img src={logoImg} alt="Petfocuz Logo" className="h-15 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
+              <img src={logoImg} alt="Petfocuz Logo" className="h-24 md:h-32 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
             </Link>
             <p className="leading-relaxed">
               Premium, international-standard pet grooming and cage-free home boarding in Thrissur, Kerala. Founded by Singapore-trained specialist Maxon Mathew.
