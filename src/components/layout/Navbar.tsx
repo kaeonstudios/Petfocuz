@@ -60,11 +60,13 @@ export default function Navbar() {
             : "bg-transparent py-3"
           }`}
       >
-        <div className="container-x flex items-center justify-between">
+        <div className="container-x flex items-center justify-end md:justify-between relative h-12 md:h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
+          <Link to="/" className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-10 group">
             <img src={logoImg} alt="Petfocuz Logo" className="h-22 md:h-28 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
           </Link>
+          {/* Spacer to prevent desktop menu overlapping with absolute logo */}
+          <div className="hidden md:block w-56 shrink-0" />
 
           {/* Desktop Nav Items (Translucent Capsule) */}
           <div className={`hidden md:flex items-center gap-1 p-1 rounded-full shadow-soft backdrop-blur-md transition-all duration-300 ${isHome && !isScrolled
