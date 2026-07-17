@@ -32,7 +32,6 @@ export interface ReviewItem {
   rating: number;
   text: string;
   source: string;
-  date: string;
   avatarBg: string; // OKLCH or Tailwind color class
 }
 
@@ -244,7 +243,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "The grooming was done so well and pick and drop was done on time. From the way they handled my 11-year-old Boxer, it was very evident that all the staff and the owner, Mr. Maxon, were very skilled, patient, and most importantly kind with dogs. I'll trust them with my senior dog any day. Highly recommended.",
     source: "Google",
-    date: "1 week ago",
     avatarBg: "bg-teal-600 text-white"
   },
   {
@@ -255,7 +253,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "I recently had my German Shepherd groomed at Petfocuz and I was so happy with the service. Max, the owner of the shop, came to pick up my dog and handled him with great care. Max is a down-to-earth person who clearly knows his way around dogs. The grooming was excellent and my dog came back looking clean, healthy, and happy. I highly recommend Petfocuz to anyone looking for professional pet grooming.",
     source: "Google",
-    date: "2 weeks ago",
     avatarBg: "bg-emerald-600 text-white"
   },
   {
@@ -266,7 +263,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "This place is so neat and beautiful. In Thrissur, this is the tidiest pet grooming studio among all the others. We could watch the grooming from the reception area, and the way they handled my pet was very professional. I was completely satisfied with the service and highly recommend Petfocuz.",
     source: "Google",
-    date: "3 weeks ago",
     avatarBg: "bg-orange-600 text-white"
   },
   {
@@ -277,7 +273,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "Amazing grooming service! My German Shepherd was picked up with great care, and she came back looking fantastic. I loved the video updates during the grooming session—it was clear she enjoyed the experience. Highly recommend Petfocuz for their professionalism and genuine love for pets.",
     source: "Google",
-    date: "1 month ago",
     avatarBg: "bg-rose-600 text-white"
   },
   {
@@ -288,7 +283,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "I've been getting my dog groomed with Pet Focuz for a while now, and I couldn't be happier. They come right to my home, pick him up, and drop him back after grooming, which makes everything so convenient. The prices are reasonable, and the care they provide is exceptional. I completely trust them with my pet and highly recommend them to every pet parent.",
     source: "Google",
-    date: "1 month ago",
     avatarBg: "bg-indigo-600 text-white"
   },
   {
@@ -299,7 +293,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "I am Dr. Regi George, a Radiologist from Thrissur. I received excellent service from Maxon Mathew and his team at Pet Focuz for my Rottweiler's grooming and hospital care. Their service was extremely professional, reliable, and caring. The team handled my pet with great attention and compassion. I highly recommend Pet Focuz to anyone looking for trustworthy pet care services.",
     source: "Google",
-    date: "2 months ago",
     avatarBg: "bg-purple-600 text-white"
   },
   {
@@ -310,7 +303,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "The team at Pet Focuz, led by Maxon, did an incredible job grooming my fur baby Kiki. They were gentle, loving, and took the time needed to complete everything perfectly. The place is clean and well maintained, appointments are managed professionally, and the entire experience reflects their dedication to pets. I couldn't be happier with the service.",
     source: "Google",
-    date: "2 months ago",
     avatarBg: "bg-amber-600 text-white"
   },
   {
@@ -321,7 +313,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "Maxon and his team groomed my cat, Cheeto, with great professionalism and love. They were thorough at every step and even allowed me to watch the entire grooming process. They handled Cheeto gently, spoke to him calmly, and ensured he stayed comfortable throughout. Their patience and care truly impressed me, and I highly recommend them.",
     source: "Google",
-    date: "3 months ago",
     avatarBg: "bg-cyan-600 text-white"
   },
   {
@@ -332,7 +323,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "So happy with Pet Focuz! Thanks to Maxon for taking such wonderful care of my puppy. I was away in Chennai and needed someone trustworthy to look after my pet. Pet Focuz assured me they would take good care of him, and they absolutely did. The communication, care, and grooming quality exceeded my expectations. I would confidently recommend them to any pet owner.",
     source: "Google",
-    date: "3 months ago",
     avatarBg: "bg-blue-600 text-white"
   },
   {
@@ -343,7 +333,6 @@ export const REVIEWS: ReviewItem[] = [
     rating: 5,
     text: "Highly Recommended! I had a wonderful experience at Pet Focuz with my Tibetan Terrier, Pookie. The team was incredibly patient, professional, and caring throughout the grooming session. They kept me updated during the process, and the final grooming and styling looked amazing. The attention to detail, hygiene, and genuine love they showed towards my pet made the entire experience exceptional. I will definitely be returning.",
     source: "Google",
-    date: "4 months ago",
     avatarBg: "bg-pink-600 text-white"
   }
 ];
