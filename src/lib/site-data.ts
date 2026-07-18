@@ -341,7 +341,7 @@ export const REVIEWS: ReviewItem[] = [
 export const FAQS: FaqItem[] = [
   {
     question: "What is Petfocuz?",
-    answer: "Petfocuz is a professional pet grooming studio in Thrissur, Kerala, founded by Singapore-trained groomer Maxon Mathew. We offer dog grooming, cat grooming, cage-free boarding, pick-up & drop, and over 30 pet care services.",
+    answer: "Petfocuz is a professional pet grooming studio in Thrissur, Kerala, founded by Singapore-trained groomer Maxon Mathew. We offer dog grooming, cat grooming, cage-free boarding, pick-up & drop, and over 8 pet care services.",
     category: "General"
   },
   {
@@ -361,7 +361,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "How much does dog grooming cost in Thrissur?",
-    answer: "Pricing varies by breed size, coat length, and services selected. Basic bath & blow-dry packages start at ₹1,200, whereas full styling and luxury spas range between ₹1,800 and ₹3,500. Contact us for a quote.",
+    answer: "Dog grooming costs 1000 for all breeds.",
     category: "Pricing"
   },
   {
@@ -421,7 +421,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "Can I get my pet groomed without an appointment?",
-    answer: "We operate on an appointment-only basis to ensure every pet gets full, undivided, patient attention. We recommend booking 2-3 days in advance.",
+    answer: "We operate on an appointment-only basis to ensure every pet gets full, undivided, patient attention. We recommend booking 1 day in advance.",
     category: "Booking"
   },
   {
@@ -443,11 +443,6 @@ export const FAQS: FaqItem[] = [
     question: "Does Petfocuz offer luxury grooming?",
     answer: "Yes. Our luxury grooming package includes full styling plus spa relaxation, aromatherapy, fruity facials, premium conditioning masks, and a luxury cologne spray.",
     category: "Pricing"
-  },
-  {
-    question: "Can I board my cat at Petfocuz?",
-    answer: "Yes. We provide quiet, stress-free, cage-free cat boarding in a comfortable home environment away from barking dogs to ensure their safety and calm.",
-    category: "Boarding"
   },
   {
     question: "Does Petfocuz help with pet hospital visits?",
