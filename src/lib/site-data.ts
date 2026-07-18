@@ -360,7 +360,7 @@ export const FAQS: FaqItem[] = [
     category: "Booking"
   },
   {
-    question: "How much does dog grooming cost in Thrissur?",
+    question: "How much does dog grooming cost?",
     answer: "Dog grooming costs 1000 for all breeds.",
     category: "Pricing"
   },
