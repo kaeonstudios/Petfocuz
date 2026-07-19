@@ -4,13 +4,34 @@
   "description": "Professional pet grooming and cage-free home boarding in Thrissur, Kerala.",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#FFFFFF",
   "theme_color": "#0F9D94",
+  "categories": ["pets", "services", "health"],
   "icons": [
     {
       "src": "/favicon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Services",
+      "url": "/pet-grooming-services-thrissur",
+      "description": "Explore dog & cat grooming, pet spa, cage-free boarding"
+    },
+    {
+      "name": "Book Appointment",
+      "url": "/contact-pet-grooming-thrissur",
+      "description": "Book a grooming session via WhatsApp"
     }
   ]
 }

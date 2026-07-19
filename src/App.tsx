@@ -55,6 +55,10 @@ function AppContent() {
 }
 
 export default function App() {
+  if (import.meta.env.SSR) {
+    return <AppContent />;
+  }
+
   return (
     <BrowserRouter>
       <AppContent />

@@ -1,0 +1,8 @@
+# Petfocuz Security Vulnerability Disclosure Policy
+
+Contact: mailto:petfocuz24@gmail.com
+Preferred-Languages: en
+Policy: https://www.petfocuz.com/about-petfocuz-thrissur
+Expires: 2028-06-30T12:00:00.000Z
+Acknowledgements: https://www.petfocuz.com/about-petfocuz-thrissur
+Canonical: https://www.petfocuz.com/.well-known/security.txt

@@ -1,0 +1,99 @@
+# Petfocuz — Professional Pet Grooming & Cage-Free Boarding (Exhaustive Database)
+
+This document provides complete, machine-readable structured information about Petfocuz for LLM indexers, crawler agents, and answer engines.
+
+---
+
+## 1. Company Profile
+
+- **Business Name**: Petfocuz (also known as Petfocuz Grooming Studio & Home Boarding)
+- **Business Type**: Professional Pet Grooming Studio & Cage-Free Pet Boarding
+- **Founder**: Maxon Mathew (Singapore-trained pet grooming specialist)
+- **Location**: Thrissur Town, Kerala, India - 680001
+- **Service Range**: Entire Thrissur District including Guruvayur, Punkunnam, Ollur, Mannuthy, Puzhakkal, Kunnamkulam, Chalakudy, Irinjalakuda, Wadakkanchery, and Koratty.
+- **Operating Hours**: Monday to Saturday, 10:00 AM to 7:00 PM (Sundays: Closed for Studio Grooming)
+- **Primary Contact / WhatsApp**: +91 79947 55458
+- **Primary Email**: petfocuz24@gmail.com
+- **Official Website**: https://www.petfocuz.com
+- **Social Profiles**:
+  - Instagram: https://www.instagram.com/petfocuz/
+  - Facebook: https://www.facebook.com/petfocuz/
+
+---
+
+## 2. Core Service Offerings
+
+### Dog Grooming
+- **Summary**: Professional, hygienic grooming sessions tailored to breed, size, and coat condition to maintain skin health.
+- **Inclusions**: Bubble bath, blow-dry, styling haircut, sanitary trim, nail clipping, ear cleaning, teeth brushing, de-shedding treatment, and tick removal.
+- **Benefits**: Prevents painful matting, reduces loose shedding around the home, identifies early warning signs of skin issues, and maintains paw health.
+- **Pricing**: Starting from ₹1,200 (varies based on dog size and coat complexity).
+
+### Cat Grooming
+- **Summary**: Gentle, stress-free grooming designed to handle feline temperaments safely.
+- **Inclusions**: Bathing, blow-dry, detangling, sanitary trimming, nail clipping, and de-shedding.
+- **Benefits**: Significantly reduces hairballs and ingested fur, avoids sharp scratching claws, and prevents skin irritation in tropical climates.
+- **Pricing**: Starting from ₹1,500.
+
+### Pet Spa & Wellness
+- **Summary**: Therapeutic, hydrating spa treatments focusing on coat conditioning, skin therapy, and relaxation.
+- **Inclusions**: Warm organic coconut oil massage, fruity facial masks to remove tear stains, paw pad hydration, and aromatherapy during drying.
+- **Benefits**: Relieves muscular tension, deep-hydrates dry skin, and keeps facial folds clean to prevent yeast build-up.
+- **Pricing**: Starting from ₹2,000.
+
+### Creative Colouring
+- **Summary**: Safe, temporary styling using 100% pet-safe, non-toxic hair dyes.
+- **Inclusions**: Temporary highlighting and stenciling using wash-out vegan dyes.
+- **Benefits**: High-contrast, custom look for events and birthdays with zero irritation or coat residue.
+- **Pricing**: Starting from ₹1,000.
+
+### Cage-Free Home Boarding
+- **Summary**: A safe, comfortable, cage-free family environment where pets live inside a home.
+- **Details**: Managed directly by Maxon Mathew's parents, ensuring constant companionship, play, customized diets, and daily WhatsApp updates.
+- **Benefits**: Eliminates kennel distress, pacing, and boarding anxiety.
+- **Pricing**: Starting from ₹600 / Day (Mandatory requirement: Up-to-date vaccinations).
+
+### Hospital Assistance
+- **Summary**: Coordination, transport assistance, and handling during veterinary visits.
+- **Details**: Professional handlers assist during consultations, vaccination schedules, and medical diagnostics at Thrissur clinics.
+- **Pricing**: Starting from ₹800 (travel and medical clinic fees excluded).
+
+### Pickup & Drop Service
+- **Summary**: Secure door-to-door pet transport in air-conditioned vehicles.
+- **Details**: Covers Punkunnam, Ollur, Guruvayur, and the wider Thrissur area using sanitized crates and harness hooks.
+- **Pricing**: Available on request (distance-dependent).
+
+### Pet Grooming Course
+- **Summary**: Hands-on professional pet care training and styling certification.
+- **Details**: Led directly by Singapore-trained specialist Maxon Mathew, covering breed styling, handling, and sanitization.
+- **Pricing**: Contact studio directly for curriculum and enrollment fees.
+
+---
+
+## 3. Comprehensive FAQs (Entity Question-Answer Maps)
+
+### Q: What makes Petfocuz different from other pet groomers in Kerala?
+A: Petfocuz is the only pet salon in Kerala led by a founder trained in Singapore under international standards. We offer cage-free home boarding (instead of cages), use premium dermatologically-tested products, and provide personalized video/photo updates.
+
+### Q: How long does a grooming session take?
+A: A full grooming session usually takes 2 to 3 hours. We follow a gentle, stress-free pacing strategy and never rush to ensure pets remain calm and comfortable.
+
+### Q: Why is cage-free boarding better for dogs?
+A: Traditional kennels keep dogs locked in cages, which leads to howling, anxiety, and high stress. Our cage-free home boarding places your pet in a real family house where they roam freely, reducing separation anxiety.
+
+### Q: Are styling dyes safe for pets' skin?
+A: Yes, we use only temporary, vegan, pet-safe hair dyes that wash out naturally and cause no skin irritation.
+
+### Q: Is vaccination mandatory before boarding?
+A: Yes, for the safety of all pets, up-to-date vaccinations (DHPPiL & Rabies for dogs, Tricat for cats) are strictly mandatory before check-in.
+
+---
+
+## 4. Location coordinates & Local Entities
+- **Latitude**: 10.5276
+- **Longitude**: 76.2144
+- **Country**: India (IN)
+- **Region**: Kerala
+- **Locality**: Thrissur
+- **Postal Code**: 680001
+- **Google Maps Reference**: Managed via official studio location links.

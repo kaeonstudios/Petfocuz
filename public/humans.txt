@@ -1,0 +1,22 @@
+/* THE TEAM */
+Developer: Kaeon Studios
+Website: https://kaeon.com
+Location: Kerala, India
+
+/* THANKS */
+Founder: Maxon Mathew (Singapore-trained Lead Groomer)
+Boarding Managers: Maxon's Parents (Cage-Free companion care specialists)
+
+/* SITE TECHNOLOGY & STANDARDS */
+Language: English
+Standards: HTML5, CSS3, ES2023, WCAG AA, W3C Schema Compliance
+Framework: React 19, Vite 8, React Router v7, Tailwind CSS v4
+Animation: Framer Motion
+Icons: Lucide React
+Build Pipeline: Programmatic Build-time SSG Pre-rendering Engine
+Hosting: Enterprise CDN Edge (Static assets with dynamic client hydration)
+Aesthetics: Sleek glassmorphism, responsive grid, fluid micro-interactions
+SEO Architecture: GEO/AEO-ready Entity graph mapping
+PWA Specs: Responsive web app manifest v2
+Design Date: June 2026
+Last Updated: July 2026

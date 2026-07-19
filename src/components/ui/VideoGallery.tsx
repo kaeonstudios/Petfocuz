@@ -9,46 +9,46 @@ interface VideoItem {
   videoUrl: string;
 }
 
+const videos: VideoItem[] = [
+  {
+    id: "vid-1",
+    title: "Luxury Golden Retriever Full Grooming & De-shedding Transformation",
+    category: "Grooming",
+    thumbnail: "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=1200",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-groomer-brushing-a-golden-retriever-dog-42240-large.mp4"
+  },
+  {
+    id: "vid-2",
+    title: "Happy Pups Playing in our Green Playground",
+    category: "Happy Pets",
+    thumbnail: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=600",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-little-dog-playing-on-the-grass-44244-large.mp4"
+  },
+  {
+    id: "vid-3",
+    title: "Relaxed Nap Time in our Cozy Boarding Living Room",
+    category: "Home Boarding",
+    thumbnail: "https://images.unsplash.com/photo-1513360309081-36f5e878fc9e?auto=format&fit=crop&q=80&w=600",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-dog-sleeping-on-a-couch-42239-large.mp4"
+  },
+  {
+    id: "vid-4",
+    title: "Take a Tour of our Premium Sanitized Studio",
+    category: "Studio Tour",
+    thumbnail: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=600",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-dog-walking-into-a-pet-store-42245-large.mp4"
+  },
+  {
+    id: "vid-5",
+    title: "Rocky & Simba's Transformation Success Story",
+    category: "Customer Stories",
+    thumbnail: "https://images.unsplash.com/photo-1535268647977-a403b69fc756?auto=format&fit=crop&q=80&w=600",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-woman-playing-with-her-dog-at-home-42238-large.mp4"
+  }
+];
+
 export default function VideoGallery() {
   const [activeVideoUrl, setActiveVideoUrl] = useState<string | null>(null);
-
-  const videos: VideoItem[] = [
-    {
-      id: "vid-1",
-      title: "Luxury Golden Retriever Full Grooming & De-shedding Transformation",
-      category: "Grooming",
-      thumbnail: "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=1200",
-      videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-groomer-brushing-a-golden-retriever-dog-42240-large.mp4"
-    },
-    {
-      id: "vid-2",
-      title: "Happy Pups Playing in our Green Playground",
-      category: "Happy Pets",
-      thumbnail: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=600",
-      videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-little-dog-playing-on-the-grass-44244-large.mp4"
-    },
-    {
-      id: "vid-3",
-      title: "Relaxed Nap Time in our Cozy Boarding Living Room",
-      category: "Home Boarding",
-      thumbnail: "https://images.unsplash.com/photo-1513360309081-36f5e878fc9e?auto=format&fit=crop&q=80&w=600",
-      videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-dog-sleeping-on-a-couch-42239-large.mp4"
-    },
-    {
-      id: "vid-4",
-      title: "Take a Tour of our Premium Sanitized Studio",
-      category: "Studio Tour",
-      thumbnail: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=600",
-      videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-dog-walking-into-a-pet-store-42245-large.mp4"
-    },
-    {
-      id: "vid-5",
-      title: "Rocky & Simba's Transformation Success Story",
-      category: "Customer Stories",
-      thumbnail: "https://images.unsplash.com/photo-1535268647977-a403b69fc756?auto=format&fit=crop&q=80&w=600",
-      videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-woman-playing-with-her-dog-at-home-42238-large.mp4"
-    }
-  ];
 
   useEffect(() => {
     const videoSchemas = videos.map(video => ({

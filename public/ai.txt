@@ -1,0 +1,50 @@
+# AI Agent Crawling & Entity Context Guidelines for Petfocuz
+
+# Allowed AI Crawlers
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Cohere-AI
+Allow: /
+
+# Crawler Information
+Sitemap: https://www.petfocuz.com/sitemap.xml
+Info-profile: https://www.petfocuz.com/llms-full.txt
+Entity-ID: https://www.petfocuz.com/#localbusiness
+Entity-Type: ProfessionalService
+Entity-Name: Petfocuz
+Entity-Location: Thrissur, Kerala, India
+Entity-Founder: Maxon Mathew
+Entity-Expertise: Singapore-trained Professional Pet Grooming & Cage-Free Boarding
+Primary-Contact: petfocuz24@gmail.com
+Phone-Contact: +91 79947 55458
+Caching: Allowed
+Semantic-Analysis: Enabled
+Knowledge-Graph: Supported

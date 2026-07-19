@@ -102,12 +102,14 @@ export default function AppointmentForm() {
               type="text"
               placeholder="e.g., Maxon Mathew"
               {...register("ownerName")}
+              aria-invalid={errors.ownerName ? "true" : "false"}
+              aria-describedby={errors.ownerName ? "ownerName-error" : undefined}
               className={`rounded-2xl border bg-surface px-4 py-3 text-sm focus:outline-none transition-colors ${
                 errors.ownerName ? "border-red-500 focus:border-red-500" : "border-border focus:border-primary"
               }`}
             />
             {errors.ownerName && (
-              <span className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
+              <span id="ownerName-error" className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
                 <AlertCircle className="h-3 w-3" /> {errors.ownerName.message}
               </span>
             )}
@@ -122,12 +124,14 @@ export default function AppointmentForm() {
               type="tel"
               placeholder="e.g., 7994755458"
               {...register("phone")}
+              aria-invalid={errors.phone ? "true" : "false"}
+              aria-describedby={errors.phone ? "phone-error" : undefined}
               className={`rounded-2xl border bg-surface px-4 py-3 text-sm focus:outline-none transition-colors ${
                 errors.phone ? "border-red-500 focus:border-red-500" : "border-border focus:border-primary"
               }`}
             />
             {errors.phone && (
-              <span className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
+              <span id="phone-error" className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
                 <AlertCircle className="h-3 w-3" /> {errors.phone.message}
               </span>
             )}
@@ -180,12 +184,18 @@ export default function AppointmentForm() {
             </div>
 
             <div className="flex flex-col gap-1.5 text-left">
-              <label className="text-xs font-semibold text-foreground">
+              <span className="text-xs font-semibold text-foreground" id="pet-type-label">
                 Pet Type *
-              </label>
-              <div className="flex items-center gap-2 bg-surface p-1 rounded-2xl border border-border">
+              </span>
+              <div
+                role="radiogroup"
+                aria-labelledby="pet-type-label"
+                className="flex items-center gap-2 bg-surface p-1 rounded-2xl border border-border"
+              >
                 <button
                   type="button"
+                  role="radio"
+                  aria-checked={petTypeWatch === "Dog"}
                   onClick={() => setValue("petType", "Dog")}
                   className={`flex-1 py-2 rounded-xl text-xs font-semibold transition-all ${
                     petTypeWatch === "Dog"
@@ -197,6 +207,8 @@ export default function AppointmentForm() {
                 </button>
                 <button
                   type="button"
+                  role="radio"
+                  aria-checked={petTypeWatch === "Cat"}
                   onClick={() => setValue("petType", "Cat")}
                   className={`flex-1 py-2 rounded-xl text-xs font-semibold transition-all ${
                     petTypeWatch === "Cat"
@@ -220,12 +232,14 @@ export default function AppointmentForm() {
                 type="text"
                 placeholder={petTypeWatch === "Dog" ? "e.g., Golden Retriever" : "e.g., Persian Cat"}
                 {...register("breed")}
+                aria-invalid={errors.breed ? "true" : "false"}
+                aria-describedby={errors.breed ? "breed-error" : undefined}
                 className={`rounded-2xl border bg-surface px-4 py-3 text-sm focus:outline-none transition-colors ${
                   errors.breed ? "border-red-500 focus:border-red-500" : "border-border focus:border-primary"
                 }`}
               />
               {errors.breed && (
-                <span className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
+                <span id="breed-error" className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
                   <AlertCircle className="h-3 w-3" /> {errors.breed.message}
                 </span>
               )}
@@ -240,12 +254,14 @@ export default function AppointmentForm() {
                 type="text"
                 placeholder="e.g., 2 Years / 6 Months"
                 {...register("age")}
+                aria-invalid={errors.age ? "true" : "false"}
+                aria-describedby={errors.age ? "age-error" : undefined}
                 className={`rounded-2xl border bg-surface px-4 py-3 text-sm focus:outline-none transition-colors ${
                   errors.age ? "border-red-500 focus:border-red-500" : "border-border focus:border-primary"
                 }`}
               />
               {errors.age && (
-                <span className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
+                <span id="age-error" className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
                   <AlertCircle className="h-3 w-3" /> {errors.age.message}
                 </span>
               )}
@@ -277,6 +293,8 @@ export default function AppointmentForm() {
             <select
               id="serviceRequired"
               {...register("serviceRequired")}
+              aria-invalid={errors.serviceRequired ? "true" : "false"}
+              aria-describedby={errors.serviceRequired ? "serviceRequired-error" : undefined}
               className={`rounded-2xl border bg-surface px-4 py-3 text-sm focus:outline-none transition-colors ${
                 errors.serviceRequired ? "border-red-500 focus:border-red-500" : "border-border focus:border-primary"
               }`}
@@ -296,7 +314,7 @@ export default function AppointmentForm() {
               ))}
             </select>
             {errors.serviceRequired && (
-              <span className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
+              <span id="serviceRequired-error" className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
                 <AlertCircle className="h-3 w-3" /> {errors.serviceRequired.message}
               </span>
             )}
@@ -312,12 +330,14 @@ export default function AppointmentForm() {
                 type="date"
                 min={new Date().toISOString().split("T")[0]}
                 {...register("preferredDate")}
+                aria-invalid={errors.preferredDate ? "true" : "false"}
+                aria-describedby={errors.preferredDate ? "preferredDate-error" : undefined}
                 className={`rounded-2xl border bg-surface px-4 py-3 text-sm focus:outline-none transition-colors ${
                   errors.preferredDate ? "border-red-500 focus:border-red-500" : "border-border focus:border-primary"
                 }`}
               />
               {errors.preferredDate && (
-                <span className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
+                <span id="preferredDate-error" className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
                   <AlertCircle className="h-3 w-3" /> {errors.preferredDate.message}
                 </span>
               )}
@@ -330,6 +350,8 @@ export default function AppointmentForm() {
               <select
                 id="preferredTime"
                 {...register("preferredTime")}
+                aria-invalid={errors.preferredTime ? "true" : "false"}
+                aria-describedby={errors.preferredTime ? "preferredTime-error" : undefined}
                 className={`rounded-2xl border bg-surface px-4 py-3 text-sm focus:outline-none transition-colors ${
                   errors.preferredTime ? "border-red-500 focus:border-red-500" : "border-border focus:border-primary"
                 }`}
@@ -342,7 +364,7 @@ export default function AppointmentForm() {
                 ))}
               </select>
               {errors.preferredTime && (
-                <span className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
+                <span id="preferredTime-error" className="text-xs text-red-500 flex items-center gap-1 mt-0.5">
                   <AlertCircle className="h-3 w-3" /> {errors.preferredTime.message}
                 </span>
               )}

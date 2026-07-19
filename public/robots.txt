@@ -1,4 +1,29 @@
+# Robots.txt for Petfocuz Grooming Studio (GEO & AEO optimized)
+
 User-agent: *
 Allow: /
+Disallow: /dist-server/
+Disallow: /node_modules/
 
+# Specifically Allow AI and Generative Search Crawler Bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap Coordinates
 Sitemap: https://www.petfocuz.com/sitemap.xml
+
+# LLM Agent Entry Points
+Link: https://www.petfocuz.com/llms.txt
+Link: https://www.petfocuz.com/llms-full.txt
