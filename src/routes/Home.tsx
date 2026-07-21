@@ -304,8 +304,10 @@ export default function Home() {
               <img
                 src={homeBoardingImg}
                 alt="Cage-free home boarding room with dogs playing"
-                className="absolute inset-0 h-full w-full object-cover"
-                loading="lazy"
+                className="absolute inset-0 h-full w-full object-cover object-center"
+                loading="eager"
+                fetchPriority="high"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />
             </div>
