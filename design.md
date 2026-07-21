@@ -311,3 +311,5 @@ Single source of truth in `src/lib/contact.ts`:
 - `buildAppointmentMessage(values)` produces the formatted, multi-line message used by the appointment form and any future service CTAs.
 
 All CTAs — floating button, hero WhatsApp button, appointment form, CTA banners — route through these helpers. Never build wa.me URLs inline in components.
+
+Designed and Developed By Kaeon
