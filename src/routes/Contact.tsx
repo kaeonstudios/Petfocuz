@@ -79,7 +79,7 @@ export default function Contact() {
                       Petfocuz Grooming Studio
                     </h3>
                     <p className="font-sans text-xs text-muted-foreground leading-relaxed">
-                      Thrissur Town, Kerala, India - 680001
+                      Thrissur Town, Kerala, India - 680006
                     </p>
                   </div>
                 </div>

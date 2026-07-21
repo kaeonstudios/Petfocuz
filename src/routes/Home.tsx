@@ -16,6 +16,7 @@ export default function Home() {
   const dogGroomingImg = SERVICES.find(s => s.id === "dog-grooming")?.imageUrl;
   const catGroomingImg = SERVICES.find(s => s.id === "cat-grooming")?.imageUrl;
   const petSpaImg = SERVICES.find(s => s.id === "pet-spa")?.imageUrl;
+  const homeBoardingImg = SERVICES.find(s => s.id === "cage-free-boarding")?.imageUrl;
 
   const handleWhatsAppInquiry = () => {
     openWhatsApp("Hello Petfocuz, I would like to inquire about booking a pet grooming appointment.");
@@ -301,7 +302,7 @@ export default function Home() {
             {/* Left Block: Image */}
             <div className="lg:col-span-6 relative aspect-[16/10] lg:aspect-auto min-h-[300px]">
               <img
-                src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=1200"
+                src={homeBoardingImg}
                 alt="Cage-free home boarding room with dogs playing"
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"

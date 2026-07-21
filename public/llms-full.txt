@@ -9,7 +9,7 @@ This document provides complete, machine-readable structured information about P
 - **Business Name**: Petfocuz (also known as Petfocuz Grooming Studio & Home Boarding)
 - **Business Type**: Professional Pet Grooming Studio & Cage-Free Pet Boarding
 - **Founder**: Maxon Mathew (Singapore-trained pet grooming specialist)
-- **Location**: Thrissur Town, Kerala, India - 680001
+- **Location**: Thrissur Town, Kerala, India - 680006
 - **Service Range**: Entire Thrissur District including Guruvayur, Punkunnam, Ollur, Mannuthy, Puzhakkal, Kunnamkulam, Chalakudy, Irinjalakuda, Wadakkanchery, and Koratty.
 - **Operating Hours**: Monday to Saturday, 10:00 AM to 7:00 PM (Sundays: Closed for Studio Grooming)
 - **Primary Contact / WhatsApp**: +91 79947 55458
@@ -95,5 +95,5 @@ A: Yes, for the safety of all pets, up-to-date vaccinations (DHPPiL & Rabies for
 - **Country**: India (IN)
 - **Region**: Kerala
 - **Locality**: Thrissur
-- **Postal Code**: 680001
+- **Postal Code**: 680006
 - **Google Maps Reference**: Managed via official studio location links.

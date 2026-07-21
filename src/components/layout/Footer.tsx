@@ -120,7 +120,7 @@ export default function Footer() {
               <li className="flex gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0" />
                 <span className="leading-relaxed">
-                  Thrissur, Kerala, India - 680001
+                  Thrissur, Kerala, India - 680006
                 </span>
               </li>
               <li className="flex gap-3 items-center">

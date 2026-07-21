@@ -3,7 +3,7 @@ import colouringServiceImg from "../../ui_images/colouring_service_img.jpeg";
 import dogGroomingImg from "../../ui_images/dog.webp";
 import catGroomingImg from "../../ui_images/cat.jpg";
 import wellnessSpaImg from "../../ui_images/wellness and spa.png";
-import cagefreeBoardingImg from "../../ui_images/cagefree onboarding.png";
+import cagefreeBoardingImg from "../../ui_images/glr_21.jpg";
 import hospitalAssistanceImg from "../../ui_images/hospital assistance.png";
 import pickAndDropImg from "../../ui_images/pick and drop.jpeg";
 import courseImg from "../../ui_images/glr_8.jpeg";

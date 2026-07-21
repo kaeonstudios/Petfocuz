@@ -1283,7 +1283,7 @@ A: Singapore-trained expertise, cage-free boarding, pick-up and drop, premium pr
     "streetAddress": "Thrissur",
     "addressLocality": "Thrissur",
     "addressRegion": "Kerala",
-    "postalCode": "680001",
+    "postalCode": "680006",
     "addressCountry": "IN"
   },
   "geo": {

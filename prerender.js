@@ -99,7 +99,7 @@ const routes = [
             "streetAddress": "Petfocuz Studio, Thrissur Town",
             "addressLocality": "Thrissur",
             "addressRegion": "Kerala",
-            "postalCode": "680001",
+            "postalCode": "680006",
             "addressCountry": "IN"
           },
           "geo": {
@@ -350,7 +350,7 @@ const routes = [
               "streetAddress": "Petfocuz Studio, Thrissur Town",
               "addressLocality": "Thrissur",
               "addressRegion": "Kerala",
-              "postalCode": "680001",
+              "postalCode": "680006",
               "addressCountry": "IN"
             }
           }
