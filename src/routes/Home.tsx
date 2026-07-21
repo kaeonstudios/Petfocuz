@@ -304,7 +304,7 @@ export default function Home() {
               <img
                 src={homeBoardingImg}
                 alt="Cage-free home boarding room with dogs playing"
-                className="absolute inset-0 h-full w-full object-cover object-center"
+                className="absolute inset-0 h-full w-full object-contain object-center bg-stone-100/50"
                 loading="eager"
                 fetchPriority="high"
                 decoding="async"
